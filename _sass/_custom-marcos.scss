@@ -1,6 +1,80 @@
-.avatar {
+
+.container-avatar {
+  width: 100%;
+  margin-top: 30px;
+  //border: 1px solid red;
+  .avatar {
     text-align: center;
     .img-circle {
-        border-radius: 50%;
+      border-radius: 50%;
     }
+  }
 }
+
+.container-info {
+  font-size: 1.1em;
+  width: 100%;
+  margin: 40px auto;
+  //border: 1px solid blue;
+  text-align: center;
+
+}
+
+.container-tags {
+  //border: 1px solid purple;
+  width: 100%;
+  text-align: center;
+  margin: 20px auto;
+  word-spacing: 30px;
+
+  a {
+    text-decoration: none;
+    color: $grey-color;
+  }
+
+  a:hover {
+    color: $brand-color;
+    //font-size: 1.2em;
+    -webkit-transition: all 1s;
+    -moz-transition:    all 1s;
+    -ms-transition:     all 1s;
+    -o-transition:      all 1s;
+    transition:         all 1s;
+  }
+}
+
+
+.container-social {
+  margin: 40px auto 0px auto;
+  width: 100%;
+  //border: 1px solid green;
+  text-align: center;
+  font-size: 1.1em;
+
+  a {
+    margin: auto 10px;
+    color: $grey-color;
+    //color: $text-color;
+    text-decoration: none;
+
+  }
+
+  a:hover {
+    //font-size: 1.2em;
+    color: $brand-color;
+    -webkit-transition: all 1s;
+    -moz-transition:    all 1s;
+    -ms-transition:     all 1s;
+    -o-transition:      all 1s;
+    transition:         all 1s;
+  }
+}
+
+.footer-wrapper {
+  width: 100%;
+  text-align: center;
+  font-size: 0.8em;
+  color: $grey-color;
+
+}
+

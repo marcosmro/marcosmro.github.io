@@ -4,43 +4,70 @@ layout: default
 
 <div class="home">
 
-<!--
-  <h1 class="page-heading">Posts</h1>
+  <!--
+    <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+        </li>
+      {% endfor %}
+    </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
--->
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  -->
 
-    
-    
-<section id="about">
-	<div class="container">
-	  <div class="avatar">
-		<img class="img-circle" src="{{ site.baseurl }}/resources/images/marcos_180x180.png" alt="Responsive image">
-	  </div>
-	  <h3>I'm <strong>Fábio Madeira</strong>, a PhD student in Computational Biology.</h3>
-	  <h3>I do <a href="{{ site.baseurl }}/research.html">research</a> in the <a href="http://www.compbio.dundee.ac.uk/">Barton group</a> at the University of Dundee, Scotland.</h3>
-	  <h3>I am increasingly interested in data science and machine learning.</h3>
-	  <h3>Have a look at some of my ongoing <a href="{{ site.baseurl }}/projects.html"> projects and initiatives</a>.</h3>
-	  <h3>For more check out my academic &amp; professional <a href="http://biomadeira.github.io/resume">Resume</a>.</h3>
-	  <h3>Feel free to contact me at <a href="http://twitter.com/biomadeira">@biomadeira</a> or by <a href="mailto:fabiomadeira@me.com">email</a>.</h3>
+  <div class="container-avatar">
+    <div class="avatar">
+      <img class="img-circle" src="{{ site.baseurl }}resources/images/marcos_180x180.png" alt="Personal picture"/>
+    </div>
+  </div>
 
-	</div>
-</section>
-    
-    
-    
-    
-    
+  <div class="container-info">
+    <p>I'm Marcos Martinez-Romero. My passion is the development of intelligent systems that use knowledge management
+      techniques to solve challenging real-life problems.</p>
+
+    <p>I am currently a research software engineer at Stanford University, where I am part of the <a
+        href="http://bmir.stanford.edu/">Stanford Center for
+      Biomedical Informatics Research (BMIR)</a>.
+
+    <p>My current work is primarily focused on the <a href="http://metadatacenter.org">CEDAR Project</a>, an exciting
+      initiative addressed to overcome the impediments to creating high-quality metadata.
+    </p>
+
+    <p>Before coming to the US I worked as a researcher, software engineer and lecturer at the University of A Coruña
+      (Spain), where I obtained my PhD in CS and AI.</p>
+
+    <p>Feel free to contact me at <a href="mailto:info@marcosmr.com">info@marcosmr.com</a>.</p>
+
+    <!--<p>I love dogs, kayaking and photography</p>-->
+
+  </div>
+
+  <div class="container-tags">
+    <a href="https://en.wikipedia.org/wiki/Health_informatics">#biomedicalinformatics</a>
+    <a href="https://en.wikipedia.org/wiki/Semantic_technology">#semantictechnology</a>
+    <a href="https://en.wikipedia.org/wiki/Knowledge_management">#knowledgemanagement</a>
+    <a href="https://en.wikipedia.org/wiki/Ontology_(information_science)">#ontologies</a>
+    <a href="https://en.wikipedia.org/wiki/Semantic_Web">#semanticweb</a>
+    <a href="https://en.wikipedia.org/wiki/Metadata">#bettermetadataforbetterscience</a>
+  </div>
+
+
+  <div class="container-social">
+    <a class="fa fa-linkedin" title="LinkedIn profile"
+        href="https://www.linkedin.com/in/marcos-martinez-romero-46881048"></a>
+    <a class="fa fa-google" title="Google Scholar profile"
+        href="https://scholar.google.com/citations?user=kTgyM9wAAAAJ&hl=en"></a>
+    <a class="fa fa-github" title="GitHub profile" href="https://github.com/marcosmro"></a>
+    <a class="fa fa-twitter" title="Twitter" href="https://twitter.com/mmartinezromero"></a>
+    <a class="fa fa-flickr" title="Flickr photos" href="https://www.flickr.com/photos/72942957@N00/"></a>
+  </div>
+
+
 </div>
