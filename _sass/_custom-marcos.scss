@@ -27,6 +27,19 @@
 
 }
 
+.container-links {
+  font-size: 1.1em;
+  width: 100%;
+  margin: 40px auto;
+  //border: 1px solid blue;
+  text-align: center;
+
+  a {
+    color: $brand-color;
+  }
+
+}
+
 .container-tags {
   //border: 1px solid purple;
   width: 100%;
@@ -61,7 +74,7 @@
   width: 100%;
   //border: 1px solid green;
   text-align: center;
-  font-size: 1.1em;
+  font-size: 1.6em;
 
   a {
     margin: auto 10px;
